@@ -52,7 +52,6 @@ p{
 
 .work {
   height: 1000px;
-  border: 1px solid green;
 }
 
 .works_title {
@@ -67,7 +66,6 @@ p{
 }
 
 .multi_post {
-  border: 1px solid green;
   height: 500px;
   margin-top: 100px;
 }
@@ -80,6 +78,10 @@ p{
   height: 500px;
 }
 
-.tags {
-  border: 1px solid green;
+.btn-see-project {
+  margin-top: 20px;
+}
+
+.multi_post_para {
+  width: 70%;
 }
