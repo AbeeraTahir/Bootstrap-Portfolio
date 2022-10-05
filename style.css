@@ -1,54 +1,56 @@
-h1{
-    color: #F55800;
+h1 {
+  color: #f55800;
 }
 
-.headline .headline1 .container .row h2{
-    color:white;
+.headline .headline1 .container .row h2 {
+  color: white;
 }
 
-p{
-    color: #F4F5F7;
+p {
+  color: #f4f5f7;
 }
 
 .headline .headline1 .container .row {
   margin-top: 100px;
 }
 
-.headline1{
-    padding-left: 12.5rem;
+.headline1 {
+  padding-left: 12.5rem;
 }
+
 .headline {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-position: right center;
-    padding: 120px 0 300px 0;
-    margin: 0;
-    background-image: url(./images/headline_desktop_image.png);
-    background-repeat: no-repeat;
-    background-size: 35%;
-    background-color: #1C1A19;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-position: right center;
+  padding: 120px 0 300px 0;
+  margin: 0;
+  background-image: url(./images/headline_desktop_image.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-color: #1c1a19;
+}
 
-  .navbar{
-      background-color: #3E3C3C;
-  }
+.navbar {
+  background-color: #3e3c3c;
+}
 
-  .font{
-      font-weight: 600;
-  }
+.font {
+  font-weight: 600;
+}
 
-  .socialmedia{
-      position:absolute;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      /* bottom: 270px; */
-      gap: 20px;
-      left: 0;
-      list-style-type: none;
-  }
+.socialmedia {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* bottom: 270px; */
+  gap: 20px;
+  left: 0;
+  list-style-type: none;
+}
 
 .work {
   height: auto;
@@ -98,9 +100,10 @@ p{
   background: #b3612e;
 }
 
-.text-color{
+.text-color {
   color: #b3612e;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -207,15 +210,14 @@ p{
 }
 
 .aboutme {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-position: right center;
-    padding: 120px 0 300px 0;
-    margin: 0;
-    background-image: url(./images/about_desktop_image.png);
-    background-repeat: no-repeat;
-    background-size: 35%;
-    background-color: #1C1A19;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-position: right center;
+  padding: 120px 0 300px 0;
+  margin: 0;
+  background-image: url(./images/about_desktop_image.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-color: #1c1a19;
 }
