@@ -2,12 +2,16 @@ h1{
     color: #F55800;
 }
 
-h2{
+.headline .headline1 .container .row h2{
     color:white;
 }
 
 p{
     color: #F4F5F7;
+}
+
+.headline .headline1 .container .row {
+  margin-top: 100px;
 }
 
 .headline1{
@@ -23,9 +27,7 @@ p{
     background-image: url(./images/headline_desktop_image.png);
     background-repeat: no-repeat;
     background-size: 35%;
-    background-color: #1C1A19
-    
-    ;
+    background-color: #1C1A19;
   }
 
   .navbar{
@@ -40,8 +42,44 @@ p{
       position:absolute;
       display: flex;
       flex-direction: column;
-      bottom: 470px;
+      justify-content: center;
+      align-items: center;
+      /* bottom: 270px; */
       gap: 20px;
       left: 0;
       list-style-type: none;
   }
+
+.work {
+  height: 1000px;
+  border: 1px solid green;
+}
+
+.works_title {
+  margin-top: 100px;
+}
+
+.works_line {
+  margin-top: 20px;
+  width: 100%;
+  height: 4px;
+  color: #212121;
+}
+
+.multi_post {
+  border: 1px solid green;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.multi_img {
+  background-image: url(./images/multi_post.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+.tags {
+  border: 1px solid green;
+}
