@@ -316,14 +316,6 @@ header {
   box-shadow: none;
 }
 
-form .btn {
-  padding: 12px;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-
 .bottom-nav {
   display: flex;
   flex-direction: row;
